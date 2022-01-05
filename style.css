@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
   
 }
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 150px;
     
@@ -36,6 +39,34 @@ section{
 .Dream-Big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-   
+    background-position: right;   
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-item{
+    width: 35%;
+    margin-left: 45px;
+    margin-right: 52px;
+    padding-left: 42px;
+    box-shadow: 12px 12px 20px gray; 
+
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(127, 127, 177) cyan) ;
+    border-image-slice: 1;
+
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue rgb(7, 112, 112)) ;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
